@@ -1,0 +1,59 @@
+#fdata{
+  background-color:#10303c;
+    border-color:black;
+  word-wrap:break-word;
+  overflow:auto;
+  height:auto;
+
+}
+#fd{
+ // background-color: #002633;
+  background-color:#10303c;
+  border-color:black;
+  //#00394d
+}
+html,body{
+  background-color:#10303c;
+ 
+  height:100%;
+ // margin-left:0px;
+  
+}
+#ic{
+  width:70%;
+  margin-bottom:10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#pAdj{
+  padding:5px 5px 5px 5px;
+}
+.mg{
+  height:100%;
+  background-image:url("https://cdn.dribbble.com/users/460682/screenshots/3308269/scroll.gif");
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+.mg1{
+  height:100%;
+  background-image:url("https://s-media-cache-ak0.pinimg.com/originals/06/97/6c/06976c48b0fe3bb173e13b638252bc36.gif");
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .mg {
+        background-attachment: scroll;
+    }
+}
+@media only screen and (max-device-width: 1024px) {
+    .mg1 {
+        background-attachment: scroll;
+    }
+}
